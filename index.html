@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>شركة رؤية المستقبل للخدمات الرقمية — موقع تجريبي</title>
+  <!-- Tajawal Arabic font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <div class="brand">
+        <svg class="logo" width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+          aria-hidden>
+          <rect x="3" y="3" width="18" height="18" rx="4" fill="#0ea5a4"></rect>
+          <path d="M7 12h10M7 8h10" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <div class="brand-text">
+          <div class="company">شركة رؤية المستقبل</div>
+          <div class="tag">للخدمات الرقمية</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#hero">الرئيسية</a>
+        <a href="#about">من نحن</a>
+        <a href="#services">الخدمات</a>
+        <a href="#testimonials">آراء العملاء</a>
+        <a href="#contact">تواصل</a>
+      </nav>
+      <button class="cta" id="ctaContact">تواصل معنا</button>
+      <button class="nav-toggle" aria-label="قائمة">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero" id="hero" data-animate>
+      <!-- Decorative background shapes (behind content) -->
+      <div class="hero-decor" aria-hidden>
+        <svg viewBox="0 0 900 400" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="hb1" x1="0" x2="1">
+              <stop offset="0" stop-color="#06b6d4" stop-opacity="0.12" />
+              <stop offset="1" stop-color="#60a5fa" stop-opacity="0.12" />
+            </linearGradient>
+            <linearGradient id="hb2" x1="0" x2="1">
+              <stop offset="0" stop-color="#fde68a" stop-opacity="0.10" />
+              <stop offset="1" stop-color="#fb7185" stop-opacity="0.08" />
+            </linearGradient>
+          </defs>
+          <g>
+            <ellipse cx="780" cy="60" rx="220" ry="100" fill="url(#hb1)" />
+            <ellipse cx="120" cy="320" rx="180" ry="90" fill="url(#hb2)" />
+            <circle cx="680" cy="300" r="36" fill="#0ea5a4" opacity="0.06" />
+          </g>
+        </svg>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1>نحن نبني حضورك الرقمي بمهارة ووضوح</h1>
+          <p class="lead">شركة رؤية المستقبل تقدم حلولاً رقمية بسيطة، فعالة، ومصممة خصيصاً لأعمالك الصغيرة.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">اطلب عرضاً</a>
+            <button class="btn btn-outline" id="heroWhatsApp">تواصل عبر واتساب</button>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <!-- Illustration from undraw style (inline SVG simple) -->
+          <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1">
+                <stop offset="0" stop-color="#06b6d4" stop-opacity="0.9" />
+                <stop offset="1" stop-color="#60a5fa" stop-opacity="0.9" />
+              </linearGradient>
+            </defs>
+            <rect x="40" y="40" width="520" height="320" rx="20" fill="url(#g1)" opacity="0.12" />
+            <g transform="translate(120,80)">
+              <rect width="360" height="220" rx="12" fill="#fff" />
+              <rect x="18" y="18" width="120" height="18" rx="6" fill="#f3f4f6" />
+              <rect x="18" y="46" width="320" height="14" rx="6" fill="#eef2ff" />
+              <circle cx="280" cy="160" r="36" fill="#0ea5a4" opacity="0.95" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about" data-animate>
+      <div class="container">
+        <div class="section-inner">
+          <div class="section-header">
+            <h2>من نحن</h2>
+            <p class="muted">شركة رؤية المستقبل للخدمات الرقمية — نساعد الأعمال المحلية على النمو عبر الحلول الرقمية
+              البسيطة والفعالة.</p>
+          </div>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>تأسست شركة رؤية المستقبل بقيادة <strong>محمد العلي</strong> لتقديم خدمات رقمية متكاملة للشركات الصغيرة
+                والمتوسطة. نقدم تطوير مواقع احترافية، حملات تسويقية موجهة، وإدارة الحسابات الاجتماعية مع تركيز على نتائج
+                قابلة للقياس.</p>
+              <ul class="bullets">
+                <li>رؤية استراتيجية لكل مشروع</li>
+                <li>تصاميم مخصصة وواجهة مستخدم واضحة</li>
+                <li>تقارير منتظمة وشفافية في الأداء</li>
+              </ul>
+            </div>
+            <div class="about-stats">
+              <div class="stat">
+                <div class="num">+120</div>
+                <div class="label">مشروع ناجح</div>
+              </div>
+              <div class="stat">
+                <div class="num">+4</div>
+                <div class="label">خدمات متكاملة</div>
+              </div>
+              <div class="stat">
+                <div class="num">5</div>
+                <div class="label">نجوم التقييم</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services" data-animate>
+      <div class="container">
+        <div class="section-header">
+          <h2>خدماتنا</h2>
+          <p class="muted">نغطي احتياجاتك الرقمية الأساسية بتركيز على النتائج والوضوح.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card" tabindex="0">
+            <div class="icon">💻</div>
+            <h3>تطوير مواقع</h3>
+            <p>مواقع عصرية سريعة التحمّل ومهيأة للبحث، متوافقة مع الجوال وسهلة الإدارة.</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="icon">📣</div>
+            <h3>تسويق رقمي</h3>
+            <p>إعلانات مستهدفة وحملات تحسين محركات البحث لزيادة حضورك وتحويل الزوار إلى عملاء.</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="icon">📱</div>
+            <h3>إدارة السوشيال ميديا</h3>
+            <p>محتوى منتظم، استراتيجية تواصل، ونمو العضوية لزيادة التفاعل.</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="icon">🎨</div>
+            <h3>تصميم هويات</h3>
+            <p>شعارات وهوية بصرية متسقة تعكس شخصية علامتك التجارية.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" id="testimonials" data-animate>
+      <div class="container">
+        <div class="section-header">
+          <h2>آراء العملاء</h2>
+          <p class="muted">بعض الكلمات من عملائنا بعد تنفيذ مشاريع ناجحة.</p>
+        </div>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial">
+            <p>"عمل رائع ومهني — موقعنا الجديد ساعدنا في جذب عملاء جدد خلال أسابيع."</p>
+            <cite>— ندى الهاشمي، مؤسسة متجر سُلة</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>"الاستجابة السريعة والتحليليّة العملية جعلت التعاون مريحاً وفعّالاً."</p>
+            <cite>— إبراهيم حسن، مدير مصنع الحلول</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>"تصميم الهوية صارم وواضح، والنتائج ظهرت في تفاعل الجمهور."</p>
+            <cite>— ليلى خالد، صاحبة عيادة تجميل</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact" data-animate>
+      <div class="container">
+        <div class="section-header">
+          <h2>تواصل معنا</h2>
+          <p class="muted">أرسل لنا استفسارك وسنعود إليك خلال 24 ساعة.</p>
+        </div>
+        <div class="contact-grid">
+          <form id="contactForm" class="contact-form">
+            <!-- English comments explain structure -->
+            <!-- Name field -->
+            <label>الاسم
+              <input type="text" name="name" id="name" placeholder="اسمك الكامل" required>
+            </label>
+            <!-- Email field -->
+            <label>البريد الإلكتروني
+              <input type="email" name="email" id="email" placeholder="example@mail.com" required>
+            </label>
+            <!-- Message field -->
+            <label>الرسالة
+              <textarea name="message" id="message" rows="5" placeholder="كيف يمكننا مساعدتك؟" required></textarea>
+            </label>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">أرسل</button>
+              <button type="button" class="btn btn-outline" id="formWhatsApp">مراسلة عبر واتساب</button>
+            </div>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </form>
+          <aside class="contact-info">
+            <h3>معلومات الاتصال</h3>
+            <p>شركة رؤية المستقبل للخدمات الرقمية</p>
+            <p>هاتف: <a href="tel:+966501234567"><span dir="ltr">+966 50 123 4567</span></a></p>
+            <p>البريد: <a href="mailto:info@ruya.example">info@ruya.example</a></p>
+            <div class="socials">
+              <a href="#" aria-label="LinkedIn" class="social">in</a>
+              <a href="#" aria-label="Twitter" class="social">tw</a>
+              <a href="#" aria-label="Instagram" class="social">ig</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2025 شركة رؤية المستقبل للخدمات الرقمية — جميع الحقوق محفوظة</div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <button id="whatsAppFloat" class="whatsapp-float" aria-label="واتساب">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M20.5 3.5C18 1 14.8 1 12.5 1 6.9 1 2.5 5.4 2.5 11c0 1.9.5 3.7 1.6 5.2L2 22l5.1-1.3c1.4.6 2.9.9 4.4.9 5.6 0 10-4.4 10-9.9 0-2.3 0-5.5-2.1-7.4z"
+        fill="#25D366" />
+      <path
+        d="M16.9 14.1c-.3-.1-1.7-.8-2-1-.3-.2-.6-.1-.8.1-.1.1-.4.4-.6.6-.2.2-.4.3-.6.1-.2-.2-.8-.7-1.4-1.6-.5-.9-.4-1-.2-1.1.2-.1.4-.2.6-.3.2-.1.3-.2.5-.3.2-.1.3-.1.5.1.2.1.5.6.7.9.2.3.4.4.6.5.2.1.4 0 .7-.2.3-.2.9-.7 1-1 .1-.3 0-.5-.1-.6-.1-.1-.6-1-.8-1.4-.2-.4-.4-.3-.6-.3l-.5.1c-.1 0-.3.1-.5.2-.2.1-.5.2-1 .6-.5.3-.9.8-1.2 1-.3.2-.6.3-.9.2-.4-.1-1.2-.4-2.1-1.3-.9-.8-1.5-1.9-1.7-2.2-.2-.4.2-.6.4-.8.2-.2.5-.4.8-.6.3-.2.4-.3.6-.5.2-.2.2-.4.1-.6C8.6 6 8.4 5.3 8 4.7 7.6 4 6.8 3.9 6.3 4c-.5.1-1.8.6-2 1.9-.2 1.2.1 2.8 1.1 4.3 1 1.5 3 3 5 4.2 2 .9 3.4 1.1 4.6 1.1 1.2 0 2.3-.5 2.6-1.8.3-1.2-.4-2.2-1.4-2.6z"
+        fill="#FFF" />
+    </svg>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
